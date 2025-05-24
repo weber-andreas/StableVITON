@@ -93,6 +93,7 @@ model:
     cond_stage_config:
       target: ldm.modules.image_encoders.modules.FrozenCLIPImageEmbedder
 dataset_name: VITONHDDataset
+data_root_dir: ~/datasets/VITONHD
 resume_path: ./ckpts/VITONHD_PBE_pose.ckpt
 default_prompt: ""
 log_images_kwargs:
